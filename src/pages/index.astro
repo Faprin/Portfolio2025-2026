@@ -1,11 +1,26 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import About from "../components/About.astro";
+import Projects from "../components/Projects.astro";
+import Socials from "../components/Socials.astro";
+import Contact from "../components/Contact.astro";
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Jose Manuel Domínguez | Portfolio">
+    <Header />
+    <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Socials />
+        <Contact />
+    </main>
+    <footer
+        class="py-10 text-center text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
+    >
+        <p>© {new Date().getFullYear()} Jose Manuel Domínguez</p>
+        <p class="mt-2 text-xs">Hecho con Astro, Tailwind y mucho esfuerzo.</p>
+    </footer>
 </Layout>

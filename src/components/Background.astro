@@ -1,0 +1,44 @@
+<div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
+  <div
+    class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-purple-500/30 dark:bg-purple-900/20 rounded-full blur-[100px] blob-1 mix-blend-multiply dark:mix-blend-screen"
+  >
+  </div>
+
+  <div
+    class="absolute top-[20%] right-[-10%] w-[400px] h-[400px] bg-orange-500/30 dark:bg-orange-900/20 rounded-full blur-[100px] blob-2 mix-blend-multiply dark:mix-blend-screen"
+  >
+  </div>
+
+  <div
+    class="absolute bottom-[-10%] left-[20%] w-[300px] h-[300px] bg-purple-400/30 dark:bg-purple-800/20 rounded-full blur-[80px] blob-3 mix-blend-multiply dark:mix-blend-screen"
+  >
+  </div>
+
+  <div
+    class="absolute bottom-[10%] right-[10%] w-[350px] h-[350px] bg-orange-400/30 dark:bg-orange-800/20 rounded-full blur-[90px] blob-4 mix-blend-multiply dark:mix-blend-screen"
+  >
+  </div>
+</div>
+
+<script>
+  import { gsap } from "gsap";
+
+  // Random movement function
+  function moveBlob(target, speed) {
+    gsap.to(target, {
+      x: "random(-100, 100)",
+      y: "random(-100, 100)",
+      scale: "random(0.8, 1.2)",
+      duration: speed,
+      ease: "sine.inOut",
+      onComplete: () => moveBlob(target, speed),
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    moveBlob(".blob-1", 20);
+    moveBlob(".blob-2", 25);
+    moveBlob(".blob-3", 18);
+    moveBlob(".blob-4", 22);
+  });
+</script>

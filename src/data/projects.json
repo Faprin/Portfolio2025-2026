@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Landing Page para Troco",
+        "description": "Landing page desarrollada para Troco, una plataforma de intercambio de ropa. La página está diseñada para atraer a nuevos usuarios y proporcionar información clara sobre los servicios ofrecidos por Troco.",
+        "tech": [
+            "Astro",
+            "Tailwind",
+            "GSAP"
+        ],
+        "github": "",
+        "image": "/public/troco.png"
+    },
+    {
+        "title": "Algorítmica compleja - El problema del viajante",
+        "description": "Programa en lenguaje Java con el que podamos resolver el famoso problema del viajante. Para ello, empleamos distintas estrategias algorítmicas y realizamos un estudio de cada uno de los algoritmos usados, verificando cuál resulta más eficiente y gasta menos tiempo computacional. Interfaz gráfica construida con JavaFX..",
+        "tech": [
+            "Java",
+            "JavaFX"
+        ],
+        "github": "",
+        "image": "public/viajante.webp"
+    }
+]
