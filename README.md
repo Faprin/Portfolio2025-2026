@@ -2,7 +2,7 @@
 
 ### Futuro Ingeniero de Software especializado en Inteligencia Artificial
 
-Actualmente estoy cursando la carrera de **Ingeniería Informática**, con el objetivo de convertir mi pasión por la construcción de sistemas robustos en una carrera en el desarrollo de **IA de vanguardia**. Mi ambición es formar parte de equipos técnicos de alto nivel (como Google, Microsoft o Amazon), resolviendo problemas complejos que impacten a millones de personas.
+Actualmente estoy cursando la carrera de **Ingeniería Informática**, con el objetivo de convertir mi pasión por la construcción de sistemas robustos en una carrera en el desarrollo de **IA de vanguardia**. Mi ambición es formar parte de equipos técnicos de alto nivel, resolviendo problemas complejos que impacten a millones de personas.
 
 ---
 
@@ -15,8 +15,6 @@ He construido mi portfolio personal bajo la premisa de la **excelencia técnica 
 * **Tailwind CSS:** Para un diseño limpio, moderno y altamente mantenible.
 * **GSAP (GreenSock Animation Platform):** Utilizado para crear una narrativa visual fluida y profesional mediante animaciones de alto rendimiento.
 
-> **Nota de Ingeniería:** Mi enfoque con este stack fue maximizar la puntuación en *Core Web Vitals*, demostrando que la estética (GSAP) no tiene por qué sacrificar la velocidad (Astro).
-
 ---
 
 ## 🧠 Mi Camino hacia la IA (The Deep Dive)
@@ -27,27 +25,5 @@ La universidad me da los fundamentos, pero mi verdadera formación en IA ocurre 
 * **Fundamentos Matemáticos:** Reforzando Álgebra Lineal y Cálculo multivariable para entender qué ocurre en cada capa de una red neuronal.
 * **Próximos Pasos:** Especialización en DeepLearning.AI y desarrollo de modelos RAG aplicados a entornos reales.
 
----
-
-## 🛠️ Habilidades en Desarrollo
-
-| Categoría | Tecnologías |
-| :--- | :--- |
-| **Frontend / UI** | Astro, React, Tailwind CSS, GSAP |
-| **Backend / Core** | Python, C++, Estructuras de Datos, Algoritmia |
-| **Inteligencia Artificial** | PyTorch (en progreso), Tokenización, Arquitecturas GPT |
-| **Herramientas** | Git, Docker, Linux |
-
----
-
-## 📫 Conectemos
-
-Estoy siempre abierto a charlar sobre arquitectura de software, el futuro de los LLMs o cualquier reto técnico interesante.
-
-* **LinkedIn:** [Tu Enlace]
-* **Web/Portfolio:** [Tu Enlace]
-* **Email:** [Tu Email]
-
----
 
 *"El código es la herramienta, la ingeniería es el arte."*
