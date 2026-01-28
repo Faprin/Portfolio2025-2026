@@ -1,6 +1,6 @@
 ---
 import Background from "../components/Background.astro";
-
+import {Toaster, toast} from 'sonner'
 import "../styles/global.css";
 
 interface Props {
@@ -55,7 +55,8 @@ const { title } = Astro.props;
 	<body
 		class="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300 font-['Outfit'] antialiased"
 	>
-		<Background />
+	<Toaster/> 	
+	<Background />
 		<slot />
 	</body>
 </html>

@@ -7,7 +7,7 @@
             "Tailwind",
             "GSAP"
         ],
-        "github": "",
+        "github": "https://github.com/Faprin/Landing-Troco.git",
         "image": "/public/troco.png"
     },
     {
@@ -17,7 +17,7 @@
             "Java",
             "JavaFX"
         ],
-        "github": "",
+        "github": "https://github.com/Faprin/Practica2_AMC.git",
         "image": "public/viajante.webp"
     }
 ]
