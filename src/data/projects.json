@@ -8,7 +8,7 @@
             "GSAP"
         ],
         "github": "https://github.com/Faprin/Landing-Troco.git",
-        "image": "/public/troco.png"
+        "image": "/images/troco.png"
     },
     {
         "title": "Algorítmica compleja - El problema del viajante",
@@ -18,6 +18,6 @@
             "JavaFX"
         ],
         "github": "https://github.com/Faprin/Practica2_AMC.git  ",
-        "image": "public/viajante.webp"
+        "image": "/images/viajante.webp"
     }
 ]
