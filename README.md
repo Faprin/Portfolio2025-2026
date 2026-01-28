@@ -17,7 +17,7 @@ He construido mi portfolio personal bajo la premisa de la **excelencia técnica 
 
 ---
 
-## 🧠 Mi Camino hacia la IA (The Deep Dive)
+## 🧠 Mi Camino hacia la IA 
 
 La universidad me da los fundamentos, pero mi verdadera formación en IA ocurre "bajo el capó". Actualmente, estoy siguiendo una ruta de aprendizaje rigurosa para entender la inteligencia artificial desde sus principios básicos:
 
